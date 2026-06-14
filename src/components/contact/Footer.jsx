@@ -42,10 +42,10 @@ export default function Footer() {
               </span>
               <span className="flex flex-col leading-none">
                 <span className="font-display text-lg font-extrabold text-white">
-                  Lakecity
+                  Udaipur
                 </span>
                 <span className="text-[10px] font-semibold uppercase tracking-[0.25em] text-royal-300">
-                  Car Rental
+                  Self Drive
                 </span>
               </span>
             </a>
@@ -149,7 +149,7 @@ export default function Footer() {
               className="mt-4 block overflow-hidden rounded-2xl border border-white/15"
             >
               <iframe
-                title="Lakecity Car Rental map"
+                title="Udaipur Self Drive map"
                 src={SITE.location.mapEmbedUrl}
                 className="pointer-events-none h-28 w-full opacity-90"
                 style={{ border: 0 }}

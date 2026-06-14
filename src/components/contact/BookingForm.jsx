@@ -36,7 +36,7 @@ export default function BookingForm() {
   } = useForm()
 
   const onSubmit = (data) => {
-    const message = `*New Booking Request — Lakecity Car Rental*%0A
+    const message = `*New Booking Request — Udaipur Self Drive*%0A
 *Name:* ${data.name}
 *Phone:* ${data.phone}
 *Vehicle:* ${data.vehicle}

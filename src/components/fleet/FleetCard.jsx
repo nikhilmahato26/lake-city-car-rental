@@ -9,7 +9,11 @@ import {
 } from '../../data/site'
 
 export default function FleetCard({ vehicle }) {
-  const bookMsg = `Hi Lakecity Car Rental! I'd like to book the ${vehicle.name} (₹${vehicle.price} ${vehicle.priceUnit}). Please confirm availability.`
+  const hasNumericPrice = typeof vehicle.price === 'number'
+  const priceDisplay = hasNumericPrice
+    ? `₹${vehicle.price.toLocaleString('en-IN')}`
+    : vehicle.price
+  const bookMsg = `Hi Udaipur Self Drive! I'd like to book the ${vehicle.name} (${priceDisplay} ${vehicle.priceUnit}). Please confirm availability.`
 
   return (
     <motion.article
@@ -45,7 +49,7 @@ export default function FleetCard({ vehicle }) {
           </h3>
           <div className="glass rounded-2xl px-3 py-1.5 text-right text-white">
             <span className="block text-lg font-extrabold leading-none">
-              ₹{vehicle.price.toLocaleString('en-IN')}
+              {priceDisplay}
             </span>
             <span className="text-[10px] font-medium opacity-80">
               {vehicle.priceUnit}

@@ -27,7 +27,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 -z-20">
         <img
-          src="https://www.rajasthanplaces.com/wp-content/uploads/2025/11/rajasthan-family-road-trip-768x402.webp"
+          src="https://blog.droom.in/droomassets/uploads/2026/06/ahmedabad-to-udaipur-distance-by-road.jpg"
           alt="Luxury SUV on a premium highway"
           className="h-full w-full object-cover"
           loading="eager"

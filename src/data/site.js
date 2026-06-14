@@ -1,7 +1,7 @@
-// Central business / site configuration for Lakecity Car Rental
+// Central business / site configuration for Udaipur Self Drive
 
 export const SITE = {
-  name: 'Lakecity Car Rental',
+  name: 'Udaipur Self Drive',
   tagline: 'Drive Your Journey Your Way',
   description:
     'Premium self-drive cars, city rides, airport transfers, bikes and scooty rentals.',
@@ -33,7 +33,7 @@ export const whatsapp = (phone, message) =>
   }`
 
 export const WHATSAPP_MESSAGE =
-  "Hi Lakecity Car Rental! I'd like to book a vehicle. Please share availability & pricing.";
+  "Hi Udaipur Self Drive! I'd like to book a vehicle. Please share availability & pricing.";
 
 export const NAV_LINKS = [
   { label: 'Home', to: '#home' },

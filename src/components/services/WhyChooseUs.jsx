@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
         <div>
           <SectionHeading
             eyebrow="Why Choose Us"
-            title="The Lakecity"
+            title="The Udaipur Self Drive"
             highlight="Advantage"
             subtitle="Premium vehicles, transparent pricing and round-the-clock support — we make every drive effortless."
             align="left"

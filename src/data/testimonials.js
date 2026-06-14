@@ -15,7 +15,7 @@ export const TESTIMONIALS = [
     rating: 5,
     avatar: 'https://i.pravatar.cc/150?img=45',
     quote:
-      'Affordable and so convenient for daily city use. The Dzire CNG saved me a lot on fuel. Will definitely rent again from Lakecity!',
+      'Affordable and so convenient for daily city use. The Dzire CNG saved me a lot on fuel. Will definitely rent again from Udaipur Self Drive!',
   },
   {
     id: 3,

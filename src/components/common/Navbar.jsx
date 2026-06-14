@@ -46,10 +46,10 @@ export default function Navbar() {
             </span>
             <span className="flex flex-col leading-none">
               <span className="font-display text-lg font-extrabold tracking-tight text-ink">
-                Lakecity
+                Udaipur
               </span>
               <span className="text-[10px] font-semibold uppercase tracking-[0.25em] text-royal-600">
-                Car Rental
+                Self Drive
               </span>
             </span>
           </a>

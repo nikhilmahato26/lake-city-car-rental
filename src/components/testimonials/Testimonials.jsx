@@ -20,7 +20,7 @@ export default function Testimonials() {
           eyebrow="Testimonials"
           title="Loved by"
           highlight="Our Riders"
-          subtitle="Real stories from customers who trust Lakecity Car Rental for every journey."
+          subtitle="Real stories from customers who trust Udaipur Self Drive for every journey."
           light
         />
 

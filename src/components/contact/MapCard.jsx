@@ -8,7 +8,7 @@ export default function MapCard({ className = '' }) {
     >
       <div className="relative h-64 w-full sm:h-72">
         <iframe
-          title="Lakecity Car Rental location map"
+          title="Udaipur Self Drive location map"
           src={SITE.location.mapEmbedUrl}
           className="h-full w-full grayscale-[0.2] transition-all duration-500 group-hover:grayscale-0"
           style={{ border: 0 }}

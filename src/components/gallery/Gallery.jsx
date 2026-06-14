@@ -30,7 +30,7 @@ export default function Gallery() {
             >
               <img
                 src={item.src}
-                alt={`${item.category} — Lakecity Car Rental`}
+                alt={`${item.category} — Udaipur Self Drive`}
                 loading="lazy"
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
